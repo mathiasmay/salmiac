@@ -288,9 +288,6 @@ public class FunctionValues {
     {
         double d   = 1.0/(x2-x1);
         
-        double m11 =   x2; double m12 = -x1;
-        double m21 = -1.0; double m22 = 1.0;
-        
         double a0 = d * (x2*y1-x1*y2);
         double a1 = d * (y2-y1);
         
